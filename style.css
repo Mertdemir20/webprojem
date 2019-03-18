@@ -1,4 +1,4 @@
-body{
+﻿body{
     margin: 0px;
     padding: 0px;
     background-color: #BBBBBB;
@@ -45,9 +45,66 @@ body{
 .sutun{
     float: left;
     padding: 10px;
+}
 
+.slider{
+      max-width: 1000px;
+      height: 400px;
+      margin: 50px auto;
+      position: relative;
 
 }
+
+.slide1{
+     animation:fade 8s infinite;
+     -webkit-animation:fade 10s infinite;
+}
+.slide2{
+     animation:fade2 8s infinite;
+     -webkit-animation:fade2 10s infinite;
+}
+.slide3{
+     animation:fade3 8s infinite; 
+     -webkit-animation:fade3 10s infinite;
+}
+.slide4{
+      animation:fade3 8s infinite; 
+      -webkit-animation:fade4 10s infinite;
+}
+            
+.slide1,.slide2,.slide3,.slide4{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+}
+
+@keyframes fade{
+    0%   {opacity:0}
+    33% { opacity: 0}
+    66% { opacity: 1}
+    100% { opacity: 0}
+}
+@keyframes fade2{
+    0%   {opacity:0}
+    33% { opacity: 1}
+    66% { opacity: 0 }
+    100% { opacity: 0}
+}
+@keyframes fade3{
+    0%   {opacity:0}
+    33% { opacity: 0}
+    66% { opacity: 1}
+    100% { opacity: 0}
+}
+
+@keyframes fade4{
+    0%   {opacity:0}
+    33% { opacity: 0}
+    66% { opacity: 0}
+    100% { opacity: 1}
+}
+
+ 
 .resim
 
 
