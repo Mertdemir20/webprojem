@@ -1,7 +1,7 @@
 ﻿body{
     margin: 0px;
     padding: 0px;
-    background-color: #BBBBBB;
+    background-color:   #E6E6FA;
 }
 *{
     box-sizing: border-box;
@@ -12,14 +12,14 @@
     background-color: white;
 }
 .baslik{
-    background-color: #89196B;
+    background-color:   #808080;
     color: white;
     padding: 30px;
 }
 /* Menu Kutusu */
 .menu {
     overflow: hidden;
-    background-color: #333;
+    background-color: #000000  ;
 }
 .menu ul{
     margin: 0px;
