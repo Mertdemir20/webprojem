@@ -1,4 +1,5 @@
-﻿body{
+﻿
+body{
     margin: 0px;
     padding: 0px;
     background-color:   #E6E6FA;
@@ -123,3 +124,46 @@
 .alt {
     background-color: black;
     color: white;
+}
+    .pic{
+    float:left;
+    height: 400px;
+    width: 1550px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.pic:hover{
+    border-radius:100%;
+}
+
+
+
+.resim7,.resim8,.resim9{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+}
+
+.cicek {
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       float: left;
+       margin-left: 15px;
+       background: skyblue;
+       cursor: pointer;
+       transition: all .4s ease-in-out;
+   }
+   .cicek:hover {
+       transform: scale(.82);
+       -webkit-transform: scale(.82);
+   }
