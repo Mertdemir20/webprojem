@@ -49,8 +49,8 @@ body{
 }
 
 .slider{
-      max-width: 1000px;
-      height: 400px;
+      max-width: 1300px;
+      height: 500px;
       margin: 50px auto;
       position: relative;
 
@@ -69,20 +69,24 @@ body{
      -webkit-animation:fade3 10s infinite;
 }
 .slide4{
-      animation:fade3 8s infinite; 
+      animation:fade4 8s infinite; 
+      -webkit-animation:fade4 10s infinite;
+}
+.slide5{
+      animation:fade5 8s infinite; 
       -webkit-animation:fade4 10s infinite;
 }
             
-.slide1,.slide2,.slide3,.slide4{
+.slide1,.slide2,.slide3,.slide4,.slide5{
       position: absolute;
       width: 100%;
       height: 100%;
 }
 
 @keyframes fade{
-    0%   {opacity:0}
+    0%   {opacity:1}
     33% { opacity: 0}
-    66% { opacity: 1}
+    66% { opacity: 0}
     100% { opacity: 0}
 }
 @keyframes fade2{
@@ -93,7 +97,7 @@ body{
 }
 @keyframes fade3{
     0%   {opacity:0}
-    33% { opacity: 0}
+    33% { opacity: }
     66% { opacity: 1}
     100% { opacity: 0}
 }
@@ -103,6 +107,13 @@ body{
     33% { opacity: 0}
     66% { opacity: 0}
     100% { opacity: 1}
+}
+
+@keyframes fade5{
+    0%   {opacity:1}
+    33% { opacity: 0}
+    66% { opacity: 0}
+    100% { opacity: 0}
 }
 
  
@@ -154,9 +165,9 @@ body{
 }
 
 .cicek {
-       width: 50px;
-       height: 50px;
-       position: absolute;
+       width: 256px;
+       height: 256px;
+       position: relative;
        float: left;
        margin-left: 15px;
        background: skyblue;
