@@ -57,24 +57,24 @@ body{
 }
 
 .slide1{
-     animation:fade 8s infinite;
-     -webkit-animation:fade 10s infinite;
+     animation:fade 10s infinite;
+     -webkit-animation:fade 13s infinite;
 }
 .slide2{
-     animation:fade2 8s infinite;
-     -webkit-animation:fade2 10s infinite;
+     animation:fade2 10s infinite;
+     -webkit-animation:fade2 13s infinite;
 }
 .slide3{
-     animation:fade3 8s infinite; 
-     -webkit-animation:fade3 10s infinite;
+     animation:fade3 10s infinite; 
+     -webkit-animation:fade3 13s infinite;
 }
 .slide4{
-      animation:fade4 8s infinite; 
-      -webkit-animation:fade4 10s infinite;
+      animation:fade4 10s infinite; 
+      -webkit-animation:fade4 13s infinite;
 }
 .slide5{
-      animation:fade5 8s infinite; 
-      -webkit-animation:fade4 10s infinite;
+      animation:fade5 10s infinite; 
+      -webkit-animation:fade4 13s infinite;
 }
             
 .slide1,.slide2,.slide3,.slide4,.slide5{
@@ -117,10 +117,10 @@ body{
 }
 
  
-.resim
+.resim{
 
-
-
+width: 1550px; 
+}
 .sol,.sag{
     width: 25%;
 }
