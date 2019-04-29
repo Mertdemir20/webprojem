@@ -1,8 +1,29 @@
-﻿
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color:   #E6E6FA;
+﻿body{
+  background-color:black;
+  animation:image 10s infinite alternate;
+  -webkit-animation:image 10s infinite alternate;
+  -moz-animation:image 10s infinite alternate;
+}
+@keyframes image{
+  0%{
+    background-color:#f24e35;
+  }
+ 
+  25%{
+    background-color:#3571ad;
+  }
+ 
+  50%{
+    background-color:black;
+  }
+ 
+  75%{
+    background-color:#9b3814;
+  }
+ 
+  100%{
+    background-color:#a8e5ed;
+  }
 }
 *{
     box-sizing: border-box;
